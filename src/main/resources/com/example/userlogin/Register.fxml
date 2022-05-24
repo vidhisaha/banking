@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane opacity="0.6" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlogin.HelloController">
+   <children>
+      <AnchorPane layoutX="49.0" layoutY="45.0" prefHeight="282.0" prefWidth="429.0">
+         <children>
+            <BorderPane layoutX="27.0" prefHeight="200.0" prefWidth="200.0" />
+            <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-50.0" layoutY="-43.0" opacity="0.47" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../logo.jpeg" />
+               </image>
+            </ImageView>
+            <Button layoutX="201.0" layoutY="305.0" mnemonicParsing="false" onAction="#onThirdButtonClick" style="-fx-background-color: #82300c;" text="Create Account" textFill="#f8f8f8">
+               <effect>
+                  <ColorAdjust brightness="0.24" contrast="0.64" hue="-0.11" saturation="0.3" />
+               </effect>
+            </Button>
+            <Text fill="#82300c" layoutX="199.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Register" wrappingWidth="119.822265625">
+               <font>
+                  <Font name="Times New Roman Bold" size="31.0" />
+               </font>
+            </Text>
+            <PasswordField layoutX="132.0" layoutY="244.0" prefHeight="27.0" prefWidth="230.0" promptText="Create New Password" style="-fx-border-color: #82300c; -fx-border-width: 0px 0px 2px 0px; -fx-background-color: white;" />
+            <TextField layoutX="133.0" layoutY="186.0" prefHeight="27.0" prefWidth="230.0" promptText="Bank Account No" style="-fx-background-color: white; -fx-border-color: #82300c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField layoutX="133.0" layoutY="133.0" prefHeight="27.0" prefWidth="230.0" promptText="Last Name" style="-fx-background-color: white; -fx-border-color: #82300c; -fx-border-width: 0px 0px 2px 0px;" />
+            <TextField layoutX="133.0" layoutY="72.0" prefHeight="27.0" prefWidth="230.0" promptText="First Name" style="-fx-background-color: white; -fx-border-color: #82300c; -fx-border-width: 0px 0px 2px 0px;" />
+            <Text layoutX="59.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
