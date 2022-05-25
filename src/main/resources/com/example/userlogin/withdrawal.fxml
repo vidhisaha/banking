@@ -16,12 +16,27 @@
          <font>
             <Font name="Times New Roman Bold" size="30.0" />
          </font></Text>
-      <TextField layoutX="168.0" layoutY="111.0" prefHeight="27.0" prefWidth="238.0" promptText="Account Name" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
-      <TextField layoutX="169.0" layoutY="161.0" prefHeight="27.0" prefWidth="238.0" promptText="Account Number" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
-      <TextField layoutX="168.0" layoutY="236.0" prefHeight="43.0" prefWidth="238.0" promptText="Amount" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField layoutX="274.0" layoutY="111.0" prefHeight="27.0" prefWidth="238.0" promptText="Account Name" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField layoutX="274.0" layoutY="161.0" prefHeight="27.0" prefWidth="238.0" promptText="Account Number" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField layoutX="276.0" layoutY="235.0" prefHeight="45.0" prefWidth="238.0" promptText="Amount" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
       <Button layoutX="241.0" layoutY="322.0" mnemonicParsing="false" onAction="#onNinethButtonClick" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #a2745f;" text="Withdraw" textFill="#ffeaea">
          <font>
             <Font name="System Bold" size="12.0" />
          </font></Button>
+      <Text fill="#744545" layoutX="163.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    Account Name:" wrappingWidth="103.33333333333331">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#744545" layoutX="163.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account Number:" wrappingWidth="103.33333333333331">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text fill="#744545" layoutX="163.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="               Amount:" wrappingWidth="103.33333333333331">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
