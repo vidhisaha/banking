@@ -6,16 +6,16 @@
 
 <AnchorPane prefHeight="100.0" prefWidth="50.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlogin.HelloController">
    <children>
-      <ImageView fitHeight="401.0" fitWidth="600.0" layoutX="-1.0" opacity="0.5" pickOnBounds="true">
+      <ImageView fitHeight="401.0" fitWidth="600.0" layoutX="-1.0" opacity="0.21" pickOnBounds="true">
          <image>
             <Image url="@../../../logo.jpeg" />
          </image>
       </ImageView>
-      <Text fill="#6b3e3e" layoutX="85.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations! Your Account is Successfully Created" wrappingWidth="393.5957336425781">
+      <Text fill="#513333" layoutX="175.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Account is Successfully Created" wrappingWidth="409.595703125">
          <font>
-            <Font size="16.0" />
+            <Font name="System Bold" size="16.0" />
          </font></Text>
-      <Text layoutX="191.0" layoutY="7.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations!!" textAlignment="JUSTIFY" wrappingWidth="215.67185974121094">
+      <Text fill="#7d5757" layoutX="218.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations!!" textAlignment="JUSTIFY" wrappingWidth="194.67189025878906">
          <font>
             <Font name="Times New Roman Bold" size="24.0" />
          </font>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlogin.HelloController">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="601.0" opacity="0.39" pickOnBounds="true">
+         <image>
+            <Image url="@../../../logo.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#5e3131" layoutX="210.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Withdrawal">
+         <font>
+            <Font name="Times New Roman Bold" size="30.0" />
+         </font></Text>
+      <TextField layoutX="168.0" layoutY="111.0" prefHeight="27.0" prefWidth="238.0" promptText="Account Name" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField layoutX="169.0" layoutY="161.0" prefHeight="27.0" prefWidth="238.0" promptText="Account Number" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField layoutX="168.0" layoutY="236.0" prefHeight="43.0" prefWidth="238.0" promptText="Amount" style="-fx-border-color: #a2745f; -fx-border-width: 0px 0px 2px 0px;" />
+      <Button layoutX="241.0" layoutY="322.0" mnemonicParsing="false" onAction="#onNinethButtonClick" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #a2745f;" text="Withdraw" textFill="#ffeaea">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
