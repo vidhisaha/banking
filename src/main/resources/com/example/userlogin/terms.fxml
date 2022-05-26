@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlogin.HelloController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="602.0" opacity="0.35" pickOnBounds="true">
+         <image>
+            <Image url="@../../../logo.jpeg" />
+         </image>
+      </ImageView>
+      <Text layoutX="47.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fill="#593c3c" layoutX="14.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.1 I agree to abide by the Bank's Terms and Conditions and rules in force and the changes thereto in Terms " wrappingWidth="1196.49609375" />
+      <Text fill="#553939" layoutX="30.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conditions from time to time relating to my account as communicated and made available on the Bank's" />
+      <Text fill="#4e3232" layoutX="30.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="website." />
+      <Text fill="#604040" layoutX="14.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.2 I agree that the opening and maintenance of the account is subject to rules and regulations introduced" />
+      <Text fill="#5e4040" layoutX="30.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or amended from time to time by the Reserve Bank of India." />
+      <Text fill="#6e4848" layoutX="14.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.3 I agree that the bank before opening any deposit account, will carry out a due diligence as required under" />
+      <Text fill="#603a3a" layoutX="30.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Know Your Customer guidelines of the bank. I would be required to submit necessary documents or proofs," />
+      <Text fill="#604444" layoutX="30.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="such as identity , address, photograph and any such information to meet with KYC, AML or other statutory/" />
+      <Text fill="#553838" layoutX="30.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="regulatory requirements." />
+      <Text fill="#603a3a" layoutX="12.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.4 I agree that the Bank may, at its discretion, engage the services of Business Facilitators(hereinafter referred " />
+      <Text fill="#603a3a" layoutX="28.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" to as &quot;BF&quot;) and Business Correspondents (hereinafter referred to as &quot;BC&quot;) for extension of banking and " />
+      <Text fill="#603a3a" layoutX="30.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="financial services so as to ensure greater financial inclusion and increasing the outreach of the banking sector." />
+      <Text fill="#603a3a" layoutX="11.0" layoutY="271.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.5 I agree that, under normal circumstances, the bank has the liberty to close my account at any time by" />
+      <Text fill="#603a3a" layoutX="29.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="giving me at least 30 days notice. However, if the Average Monthly/ Quarterly Balance, is not maintained," />
+      <Text fill="#603a3a" layoutX="29.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="the Bank reserves the right to close my account without giving any prior notice." />
+      <Text fill="#603a3a" layoutX="9.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.6 I agree that the Bank can at its sole discretion, amend any of the  services/facilities given in my " />
+      <Text fill="#603a3a" layoutX="29.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="account either wholly or partially at any time by giving me at least 30 days notice and/or provide an option" />
+      <Text fill="#603a3a" layoutX="29.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" to me to switch to other services/facilities." />
+      <Text fill="#593a3a" layoutX="183.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terms and Conditions">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
