@@ -4,18 +4,29 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlogin.HelloController">
+<AnchorPane  prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.userlogin.bankData">
    <children>
       <ImageView fitHeight="402.0" fitWidth="602.0" opacity="0.36" pickOnBounds="true">
          <image>
             <Image url="@../../../logo.jpeg" />
          </image>
       </ImageView>
-      <TableView layoutX="39.0" layoutY="109.0" prefHeight="248.0" prefWidth="524.0" />
-      <MenuButton layoutX="222.0" layoutY="48.0" mnemonicParsing="false" text="MenuButton">
+      <TableView fx:id="table" layoutX="39.0" layoutY="109.0" prefHeight="248.0" prefWidth="524.0" style="-fx-background-color: #a2745f;">
+         <columns>
+            <TableColumn fx:id="slno" prefWidth="45.999996185302734" text="SL_No" />
+            <TableColumn fx:id="date" prefWidth="53.333351135253906" text="Date" />
+            <TableColumn fx:id="description" minWidth="7.333343505859375" prefWidth="204.00001525878906" text="Description" />
+            <TableColumn fx:id="debit" prefWidth="78.3333740234375" text="Debit" />
+            <TableColumn fx:id="credit" prefWidth="67.0" text="Credit" />
+            <TableColumn fx:id="balance" prefWidth="77.66665649414062" text="Balance" />
+         </columns></TableView>
+      <MenuButton  layoutX="48.0" layoutY="70.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="513.0" style="-fx-background-color: #a2745f;" text="Months">
         <items>
-          <MenuItem mnemonicParsing="false" text="Action 1" />
-          <MenuItem mnemonicParsing="false" text="Action 2" />
+          <MenuItem mnemonicParsing="false" text="January" onAction="#january"/>
+          <MenuItem mnemonicParsing="false" text="Febraury" onAction="#febraury" />
+            <MenuItem mnemonicParsing="false" text="March" onAction="#march" />
+            <MenuItem mnemonicParsing="false" text="April" onAction="#april"/>
+            <MenuItem mnemonicParsing="false" text="May" onAction="#may"/>
         </items>
       </MenuButton>
    </children>

@@ -118,12 +118,22 @@ public class HelloController {
         stage.setScene(scene);
         stage.show();
     }
+//    @FXML
+//    protected void onFourteenthButtonClick() throws IOException, IOException {
+//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("statement.fxml"));
+//        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
+//        Stage stage = new Stage();
+//        stage.setTitle("Banking Application");
+//        stage.setScene(scene);
+//        stage.show();
+//    }
+
     @FXML
-    protected void onTwelvethButtonClick() throws IOException, IOException {
+    protected void onFourteenthButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("statement.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Bank Statement");
         stage.setScene(scene);
         stage.show();
     }

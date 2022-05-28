@@ -7,9 +7,9 @@ import java.sql.Connection;
 public class DataConncection {
 
     public static Connection getConnection() throws SQLException {
-        String databaseName = "Flight_Data"; // Database Name
+        String databaseName = "transactions"; // Database Name
         String databaseUser = "root"; // Database User
-        String databasePassword = "020701764"; // Database Password
+        String databasePassword = "010110"; // Database Password
         String url = "jdbc:mysql://localhost:3306/" + databaseName + "?useSSL=false"; // Database URL
         Connection connection = null;
         try {
