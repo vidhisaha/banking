@@ -35,22 +35,22 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Text>
-            <Text fill="#5c3d3d" layoutX="137.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   First Name:" wrappingWidth="105.33333333333326">
+            <Text fill="#732727" layoutX="137.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   First Name:" wrappingWidth="105.33333333333326">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <Text fill="#5c3d3d" layoutX="137.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   Last Name:" wrappingWidth="105.33333333333326">
+            <Text fill="#732727" layoutX="137.0" layoutY="107.0" strokeType="OUTSIDE" strokeWidth="0.0" text="   Last Name:" wrappingWidth="105.33333333333326">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <Text fill="#5c3d3d" layoutX="111.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Bank Account No:" wrappingWidth="105.33333333333326">
+            <Text fill="#732727" layoutX="111.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Bank Account No:" wrappingWidth="105.33333333333326">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <Text fill="#5c3d3d" layoutX="89.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Password:" wrappingWidth="136.33333333333326">
+            <Text fill="#732727" layoutX="89.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Password:" wrappingWidth="136.33333333333326">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>

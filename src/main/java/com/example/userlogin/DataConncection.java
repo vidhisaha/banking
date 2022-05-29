@@ -9,7 +9,7 @@ public class DataConncection {
     public static Connection getConnection() throws SQLException {
         String databaseName = "transactions"; // Database Name
         String databaseUser = "root"; // Database User
-        String databasePassword = "010110"; // Database Password
+        String databasePassword = "klmp3631"; // Database Password
         String url = "jdbc:mysql://localhost:3306/" + databaseName + "?useSSL=false"; // Database URL
         Connection connection = null;
         try {

@@ -57,7 +57,7 @@ public class bankData {
 
             Connection connectDB = DataConncection.getConnection();
 
-            ResultSet Result = connectDB.createStatement().executeQuery("SELECT * FROM january");
+            ResultSet Result = connectDB.createStatement().executeQuery("SELECT * FROM JANUARY");
             System.out.println(Result);
 
             // Fetching Data from the columns of the table from database
@@ -97,7 +97,7 @@ public class bankData {
 
             Connection connectDB = DataConncection.getConnection();
 
-            ResultSet Result = connectDB.createStatement().executeQuery("SELECT * FROM febraury");
+            ResultSet Result = connectDB.createStatement().executeQuery("SELECT * FROM feburary");
             System.out.println(Result);
 
             // Fetching Data from the columns of the table from database

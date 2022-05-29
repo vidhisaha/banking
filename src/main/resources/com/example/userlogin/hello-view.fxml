@@ -27,15 +27,15 @@
             <TextField layoutX="141.0" layoutY="114.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #d9bfad; -fx-border-width: 0px 0px 2px 0px;" />
             <PasswordField layoutX="141.0" layoutY="172.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #d9bfad; -fx-border-width: 0px 0px 2px 0px;" />
             <Button layoutX="133.0" layoutY="243.0" mnemonicParsing="false" onAction="#onFourthButtonClick" prefHeight="34.0" prefWidth="90.0" style="-fx-background-color: #d9bfad;" text="Login" textFill="#8f684d" />
-            <Hyperlink layoutX="201.0" layoutY="199.0" onAction="#onTenthButtonClick" text="Forgot Password?" textFill="#efc6c6" />
+            <Hyperlink layoutX="201.0" layoutY="199.0" onAction="#onTenthButtonClick" text="Forgot Password?" textFill="#e4ccbd" />
             <Button layoutX="73.0" layoutY="344.0" mnemonicParsing="false" onAction="#onSecondButtonClick" prefHeight="26.0" prefWidth="209.0" style="-fx-background-color: #d9bfad;" text="Create your WE BANK Account" textFill="#8f6161" />
             <Text fill="#f8d8d8" layoutX="71.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="------------New to WE BANK?------------" />
-            <Text fill="#efd5d5" layoutX="71.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
+            <Text fill="#e4ccbd" layoutX="71.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font>
             </Text>
-            <Text fill="#efd6d6" layoutX="73.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
+            <Text fill="#e4ccbd" layoutX="73.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:">
                <font>
                   <Font name="System Bold" size="12.0" />
                </font></Text>

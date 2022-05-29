@@ -30,6 +30,6 @@
             <Font name="System Bold" size="14.0" />
          </font>
       </Text>
-      <Text fill="#2d1818" layoutX="22.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$167" />
+      <Text fill="#2d1818" layoutX="22.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$525" />
    </children>
 </AnchorPane>

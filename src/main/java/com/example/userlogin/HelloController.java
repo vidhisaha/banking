@@ -31,7 +31,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("Register.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Register");
         stage.setScene(scene);
         stage.show();
     }
@@ -41,7 +41,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("createnewacc.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("New Account");
         stage.setScene(scene);
         stage.show();
     }
@@ -50,7 +50,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("login.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Services");
         stage.setScene(scene);
         stage.show();
     }
@@ -59,7 +59,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("balance.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Account Balance");
         stage.setScene(scene);
         stage.show();
     }
@@ -68,7 +68,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("deposit.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Deposit");
         stage.setScene(scene);
         stage.show();
     }
@@ -77,7 +77,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("withdrawal.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Withdrawal");
         stage.setScene(scene);
         stage.show();
     }
@@ -86,7 +86,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("deposit view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Deposit");
         stage.setScene(scene);
         stage.show();
     }
@@ -96,7 +96,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("withdrawal view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Withdrawal");
         stage.setScene(scene);
         stage.show();
     }
@@ -105,7 +105,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("password.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Forgot Password");
         stage.setScene(scene);
         stage.show();
     }
@@ -114,26 +114,17 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("password view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Forgot Password");
         stage.setScene(scene);
         stage.show();
     }
-//    @FXML
-//    protected void onFourteenthButtonClick() throws IOException, IOException {
-//        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("statement.fxml"));
-//        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-//        Stage stage = new Stage();
-//        stage.setTitle("Banking Application");
-//        stage.setScene(scene);
-//        stage.show();
-//    }
 
     @FXML
     protected void onFourteenthButtonClick() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("statement.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Bank Statement");
+        stage.setTitle("Account Statement");
         stage.setScene(scene);
         stage.show();
     }
@@ -142,7 +133,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("terms.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         Stage stage = new Stage();
-        stage.setTitle("Banking Application");
+        stage.setTitle("Terms and Conditions");
         stage.setScene(scene);
         stage.show();
     }
